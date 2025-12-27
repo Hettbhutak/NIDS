@@ -4,6 +4,22 @@ Cyber Security: Development of Network Intrusion Detection System (NIDS), with M
 ## Objective : 
 Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.
 
+## Models Used
+- LSTM
+- RNN
+- KNN (baseline)
+
+## Dataset
+- NSL-KDD
+- Features: 41 network attributes
+
+## Results
+| Model | Accuracy |
+|------|----------|
+| KNN | 91% |
+| RNN | 89% |
+| LSTM | 93% |
+
 ## Description : 
 Large numbers of businesses were affected by data infringes and Cyber -attacks due to dependency on internet. To prevent such malicious activity, the network requires a system that detects anomaly and inform the user and alerts the user. 
 
