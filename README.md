@@ -1,110 +1,95 @@
 🛡️ Network Intrusion Detection System (NIDS)
-📌 Overview
+Overview
 
-This project implements a Machine Learning–based Network Intrusion Detection System (NIDS) to classify network traffic as normal or malicious.
-The system is designed to enhance cybersecurity by detecting attacks using supervised learning models trained on a benchmark dataset.
+A Machine Learning–based Network Intrusion Detection System (NIDS) that classifies network traffic as normal or malicious.
+The system uses classical ML and deep learning models trained on the NSL-KDD benchmark dataset to detect network attacks.
 
-The project focuses on feature-driven attack detection, model comparison, and practical applicability in real-world network environments.
+Designed with a modular pipeline focusing on preprocessing, model training, evaluation, and comparison.
 
-🚀 Features
+Features
 
-Classifies network traffic into normal vs attack
+Binary classification: Normal vs Attack
 
-Uses deep learning and classical ML models
+Classical and deep learning models
 
-Trained and evaluated on the NSL-KDD dataset
+Trained on NSL-KDD dataset
 
-Comparative analysis of multiple algorithms
+Model comparison and analysis
 
-Modular pipeline for data preprocessing, training, and evaluation
+Modular and extensible ML pipeline
 
-🧠 Models Implemented
+Models
 
-K-Nearest Neighbors (KNN) – baseline model
+K-Nearest Neighbors (KNN) – baseline
 
 Recurrent Neural Network (RNN)
 
 Long Short-Term Memory (LSTM)
 
-Deep learning models are used to capture temporal patterns in network traffic data.
+Deep learning models capture sequential patterns in network traffic, improving detection over traditional ML methods.
 
-📊 Dataset
+Dataset
 
-Dataset: NSL-KDD
+Name: NSL-KDD
 
-Description: Improved version of the KDD’99 dataset, widely used for intrusion detection research
+Type: Intrusion detection benchmark dataset
 
 Features: 41 network traffic attributes
 
-Classes: Normal traffic and multiple attack types
+Classes: Normal traffic and multiple attack categories
 
-🛠️ Tech Stack
+Tech Stack
 
-Programming Language: Python
+Language: Python
 
-Libraries & Frameworks:
+Libraries: NumPy, Pandas, Scikit-learn
 
-NumPy, Pandas
+Deep Learning: TensorFlow / Keras
 
-Scikit-learn
+Tools: Jupyter Notebook, Google Colab
 
-TensorFlow / Keras
+Pipeline
 
-Environment: Jupyter Notebook / Google Colab
-
-⚙️ Workflow
-
-Data preprocessing and feature encoding
+Data preprocessing & feature encoding
 
 Train-test split
 
 Model training (KNN, RNN, LSTM)
 
-Performance evaluation
+Evaluation and comparison
 
-Result comparison
-
-📈 Results
+Results
 Model	Purpose
-KNN	Baseline performance comparison
-RNN	Sequential pattern learning
-LSTM	Improved long-term dependency learning
+KNN	Baseline comparison
+RNN	Sequential learning
+LSTM	Long-term dependency learning
 
-LSTM and RNN models demonstrated better performance compared to traditional ML approaches due to their ability to model sequential network behavior.
+RNN and LSTM models outperform traditional ML approaches by effectively modeling sequential network behavior.
 
-(You can later add exact accuracy values when finalized)
+Evaluation metrics can be added after final experimentation.
 
-📂 Project Structure
+Project Structure:
 NIDS/
-│── data/
-│── preprocessing/
-│── models/
-│── evaluation/
-│── notebooks/
-│── README.md
+├── data/
+├── preprocessing/
+├── models/
+├── evaluation/
+├── notebooks/
+└── README.md
 
-🔮 Future Improvements
-
+Future Work:
 Real-time packet capture and classification
+Live network traffic integration
+Low-latency model optimization
+API-based deployment
 
-Integration with live network traffic
-
-Model optimization for low-latency detection
-
-Deployment as an API-based security service
-
-🎯 Use Case
-
+Use Cases:
 Enterprise network security
+Intrusion detection research
+Real-time IDS system foundation
 
-Research and academic experimentation
-
-Foundations for real-time IDS deployment
-
-🧑‍💻 Author
-
+Author
 Het Bhutak
 AI/ML Engineer
-🔗 GitHub: https://github.com/Hettbhutak
-
-🔗 LinkedIn: https://linkedin.com/in/het-bhutak-3101601ba
+GitHub: https://github.com/Hettbhutak
+LinkedIn: https://linkedin.com/in/het-bhutak-3101601ba
