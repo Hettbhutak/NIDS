@@ -1,32 +1,110 @@
-# NIDS
-Cyber Security: Development of Network Intrusion Detection System (NIDS), with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.
-# Network-Intrusion-Detection-Using-Deep-Learning
-## Objective : 
-Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.
+🛡️ Network Intrusion Detection System (NIDS)
+📌 Overview
 
-## Models Used
-- LSTM
-- RNN
-- KNN (baseline)
+This project implements a Machine Learning–based Network Intrusion Detection System (NIDS) to classify network traffic as normal or malicious.
+The system is designed to enhance cybersecurity by detecting attacks using supervised learning models trained on a benchmark dataset.
 
-## Dataset
-- NSL-KDD
-- Features: 41 network attributes
+The project focuses on feature-driven attack detection, model comparison, and practical applicability in real-world network environments.
 
-## Results
-| Model | Accuracy |
-|------|----------|
-| KNN | 91% |
-| RNN | 89% |
-| LSTM | 93% |
+🚀 Features
 
-## Description : 
-Large numbers of businesses were affected by data infringes and Cyber -attacks due to dependency on internet. To prevent such malicious activity, the network requires a system that detects anomaly and inform the user and alerts the user. 
+Classifies network traffic into normal vs attack
 
-![temp](https://user-images.githubusercontent.com/106341416/189742718-d621c3ad-ed1d-4b7b-b39a-f41d8fd0bc95.png)
+Uses deep learning and classical ML models
 
-This project detects Network Intrusion anomalies by using NSL - KDD data-set. The deep learning model Long Short Term Memory (LSTM), superior version of RNN (Recurrent Neural Network) and KNN K - Nearest Neighbour Algorithm) method are used for binary and multi class classification. 
+Trained and evaluated on the NSL-KDD dataset
 
-The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.
+Comparative analysis of multiple algorithms
 
-The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB.
+Modular pipeline for data preprocessing, training, and evaluation
+
+🧠 Models Implemented
+
+K-Nearest Neighbors (KNN) – baseline model
+
+Recurrent Neural Network (RNN)
+
+Long Short-Term Memory (LSTM)
+
+Deep learning models are used to capture temporal patterns in network traffic data.
+
+📊 Dataset
+
+Dataset: NSL-KDD
+
+Description: Improved version of the KDD’99 dataset, widely used for intrusion detection research
+
+Features: 41 network traffic attributes
+
+Classes: Normal traffic and multiple attack types
+
+🛠️ Tech Stack
+
+Programming Language: Python
+
+Libraries & Frameworks:
+
+NumPy, Pandas
+
+Scikit-learn
+
+TensorFlow / Keras
+
+Environment: Jupyter Notebook / Google Colab
+
+⚙️ Workflow
+
+Data preprocessing and feature encoding
+
+Train-test split
+
+Model training (KNN, RNN, LSTM)
+
+Performance evaluation
+
+Result comparison
+
+📈 Results
+Model	Purpose
+KNN	Baseline performance comparison
+RNN	Sequential pattern learning
+LSTM	Improved long-term dependency learning
+
+LSTM and RNN models demonstrated better performance compared to traditional ML approaches due to their ability to model sequential network behavior.
+
+(You can later add exact accuracy values when finalized)
+
+📂 Project Structure
+NIDS/
+│── data/
+│── preprocessing/
+│── models/
+│── evaluation/
+│── notebooks/
+│── README.md
+
+🔮 Future Improvements
+
+Real-time packet capture and classification
+
+Integration with live network traffic
+
+Model optimization for low-latency detection
+
+Deployment as an API-based security service
+
+🎯 Use Case
+
+Enterprise network security
+
+Research and academic experimentation
+
+Foundations for real-time IDS deployment
+
+🧑‍💻 Author
+
+Het Bhutak
+AI/ML Engineer
+🔗 GitHub: https://github.com/Hettbhutak
+
+🔗 LinkedIn: https://linkedin.com/in/het-bhutak-3101601ba
